@@ -1,7 +1,7 @@
 {
   "name": "modern-web-dev-scripts",
   "version": "1.0.1",
-  "description": "package.json scripts for create-modern-web-dev",
+  "description": "Scripts and webpack configuration for create-modern-web-dev",
   "main": "index.js",
   "bin": "./bin/cli.js",
   "type": "module",
@@ -10,6 +10,7 @@
   },
   "keywords": [
     "modern-web-dev-scripts",
+    "package scripts",
     "webpack configuration"
   ],
   "author": "",
@@ -17,7 +18,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "copy-webpack-plugin": "^10.2.4",
-    "modern-web-dev-utils": "^1.x",
+    "modern-web-dev-utils": "^1.1.6",
     "rimraf": "^3.0.2",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
