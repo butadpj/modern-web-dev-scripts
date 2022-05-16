@@ -4,7 +4,7 @@ import { execSync } from 'child_process';
 import colors from 'colors';
 import Webpack from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
-import webpackDevConfig from '../configs/webpack.common.js';
+import webpackDevConfig from '../configs/webpack.dev.js';
 import webpackProdConfig from '../configs/webpack.prod.js';
 
 const environment = process.argv[2];
