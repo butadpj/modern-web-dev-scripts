@@ -21,10 +21,6 @@ if (process.argv.length < 3) {
 }
 
 function main() {
-  execSync(
-    'npm install --save-dev copy-webpack-plugin modern-web-dev-utils modern-web-dev-scripts webpack webpack-cli webpack-dev-server webpack-merge rimraf',
-  );
-
   if (environment == 'start') {
     // Run wepback server
 
