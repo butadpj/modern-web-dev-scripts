@@ -8,7 +8,10 @@ export default merge(common, {
     port: 3005,
     compress: true,
     static: ['./public', './pages'],
-    hot: 'only',
+    hot: true,
     open: true,
+  },
+  optimization: {
+    runtimeChunk: 'single',
   },
 });
